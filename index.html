@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Symmetry@Otterbein</title>
+<meta name="author" content="(Dean Johnston)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./css/reveal.css"/>
+
+<link rel="stylesheet" href="./css/theme/beige.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Symmetry@Otterbein</h1><h2 class="author">Dean Johnston</h2><h2 class="date">20 September 2017</h2>
+</section>
+<section>
+<section id="slide-orgdebd2ce">
+<h2 id="orgdebd2ce">Otterbein University</h2>
+
+<div class="figure">
+<p><img src="./img/towers.jpg" alt="towers.jpg" />
+</p>
+</div>
+
+</section>
+<section id="slide-org9bd7de7">
+<h3 id="org9bd7de7">About Otterbein</h3>
+<ul>
+<li>Otterbein University is a small, private, liberal arts university founded in 1847</li>
+<li>Approximately 3000 students enrolled</li>
+<li>Only undergraduate programs in most areas</li>
+<li>The Department of Chemistry has six full-time faculty and four part-time faculty</li>
+
+</ul>
+
+</section>
+<section id="slide-orgd941123">
+<h3 id="orgd941123">Where is Otterbein?</h3>
+
+<div class="figure">
+<p><img src="./img/ohio.jpg" alt="ohio.jpg" height="60%," width="60%" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb39ac3d">
+<h2 id="orgb39ac3d">A Brief History of Symmetry@Otterbein</h2>
+
+<div class="figure">
+<p><img src="./img/sym.jpg" alt="sym.jpg" height="45%," width="45%" />
+</p>
+</div>
+</section>
+<section id="slide-orgb51ad1f">
+<h3 id="orgb51ad1f">The First Version</h3>
+<ul>
+<li>"Version 1.0" of the Otterbein symmetry website appeared in 2000 and utilized the <a href="https://en.wikipedia.org/wiki/MDL_Chime">Chime plug-in</a> for the Netscape Navigator browser. It included illustrations of symmetry elements and animations of symmetry operations.</li>
+
+</ul>
+
+<div class="figure">
+<p><img src="./img/chime-ethane.png" alt="chime-ethane.png" height="80%," width="80%" />
+</p>
+</div>
+</section>
+<section id="slide-org022cd4a">
+<h3 id="org022cd4a">Chime to Jmol</h3>
+<ul>
+<li>In 2006, the website was updated from Chime to <a href="http://www.stolaf.edu/academics/chemapps/jmol/docs/">Jmol</a>, the new Java-based molecular viewer that brought many more features.</li>
+<li>With support from the <a href="https://nsf.gov/">National Science Foundation</a> from 2006-08, the website was expanded to include the <b>Symmetry Gallery</b> and <b>Symmetry Challenge</b>.</li>
+
+</ul>
+
+<div class="figure">
+<p><img src="./img/jmol-nh3.png" alt="jmol-nh3.png" height="60%," width="60%" />
+</p>
+</div>
+</section>
+<section id="slide-org6cda030">
+<h3 id="org6cda030">Tracking Visitors</h3>
+
+<div class="figure">
+<p><img src="./img/visitors.png" alt="visitors.png" height="65%," width="65%" />
+</p>
+</div>
+<ul>
+<li>About 60% of the users come from outside the US.</li>
+<li>Currently, about 25% are using a mobile device.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgce7ed98">
+<h2 id="orgce7ed98">Current and Future Work</h2>
+
+<div class="figure">
+<p><img src="./img/web.jpeg" alt="web.jpeg" height="75%," width="75%" />
+</p>
+</div>
+</section>
+<section id="slide-orga439c28">
+<h3 id="orga439c28">Current Materials</h3>
+<ul>
+<li>Three central pages
+<ul>
+<li><b>Symmetry Tutorial</b> - a short introduction to molecular symmetry</li>
+<li><b>Symmetry Gallery</b> - a collection of over 100 molecules and models with interactive display of symmetry elements and operations</li>
+<li><b>Symmetry Challenge</b> - an interactive, guided flowchart for point group determination</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org471fd85">
+<h3 id="org471fd85">Current Materials</h3>
+<ul>
+<li>Related pages (some at Crystals@Otterbein)
+<ul>
+<li><b>Symmetry@Otterbein: Space Groups</b> - example space groups with interactive representations and animations of symmetry operations</li>
+<li><b>Representations of the Crystallographic Point Groups</b> - a "decorated solid" version using geometric shapes with colored faces to illustrate the 32 crystallographic point groups</li>
+<li><b>Crystal Packing</b> - an illustration of the layers and packing simple metallic and ionic solids</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org5ef5a8e">
+<h3 id="org5ef5a8e">Motivations (for new pages)</h3>
+<ul>
+<li>Current pages are not mobile-friendly
+<ul>
+<li>they have small controls that are difficult to navigate</li>
+<li>the design does not adapt well to small or skinny (portrait) screens</li>
+
+</ul></li>
+<li>Code base is difficult to maintain
+<ul>
+<li>combination of Jmol scripting language and JavaScript</li>
+<li>separate but overlapping code for each project</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orge8b37c1">
+<h3 id="orge8b37c1">New Development</h3>
+<ul>
+<li>All new pages are being developed using the Angular framework</li>
+<li>&rArr; modular development of components (controls and views) and services (io, drawing, animation)</li>
+<li>&rArr; development using a single code base</li>
+<li>Material Design components for consistent and mobile-friendly controls</li>
+
+</ul>
+
+<div class="figure">
+<p><img src="./img/angular.png" alt="angular.png" height="15%," width="15%" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org78bb625">
+<h2 id="org78bb625">DEMO</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgd25e8a1">
+<h2 id="orgd25e8a1">Acknowledgments</h2>
+<p>
+Thanks to all who have provided support, encouragement, and suggestions over the years.
+</p>
+<ul>
+<li><b>Steve Koch</b> (SUNY Stony Brook) for discovering my website and encouraging further development</li>
+<li><b>Bob Hanson</b> (St. Olaf) for his amazing work on Jmol (and JSmol)</li>
+<li><b>Tobin Marks</b> (Northwestern) for introducing me to the beauty of symmetry and group theory</li>
+<li>And the <b>CCDC</b> for providing an endless source of unique and interesting examples</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./lib/js/head.min.js"></script>
+<script src="./js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
